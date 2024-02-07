@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
 
-plt.style.use('seaborn-paper')
+plt.style.use('seaborn-v0_8-paper')
 
 
 def plot_phase_portrait(func, t0=None, xlims=None, ylims=None, num_points=20,
